@@ -10,13 +10,17 @@
                 justify-content: center;
                 font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
             }
+            iframe.sheet {
+                width: 806px;
+                height: 576px;
+            }
             div.main {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: flex-start;
-                margin: 20px;
-                width: 805px;
+                margin: 25px;
+                width: 806px;
             }
             div.logos {
                 display: flex;
@@ -24,15 +28,29 @@
                 align-items: center;
                 width: 400px;
             }
+            div.boxed {
+                display: block;
+                border: 1px dashed black;
+                padding: 10px 20px;
+                margin: 20px 0px;
+                width: 766px;;
+            }
             button {
                 border-radius: 10px;
                 padding: 5px 10px;
                 font-size: 90%;
                 background-color: rgb(201, 247, 248);
-                margin: 20px 0px;
+                margin: 15px 0px;
             }
 			button:hover {
                 color: rgb(117, 28, 113);
+            }
+            li {
+                margin-left: -20px;
+            }
+            span#mods {
+                font-size: 80%;
+                font-style: normal;
             }
         </style>
     </head>
@@ -42,15 +60,25 @@
                 <img src="EEEClubLogo.png" height="90px"/>
                 <img src="CampusSuppliesLogo.png" height="50px"/>
             </div>
-            <h1>EEE Past Year Papers - Solutions</h1>
+            <h1>EEE Past Year Papers (PYP) - Solutions</h1>
+            <div class="boxed">
+                <h3>We are looking for solution writers for the following modules:<br><span id="mods">EE1002, EE2001, EE2008, EE3002, EE3010, EE3011, EE3012, EE3013, EE3015, EE3017, EE3019</span></h3>
+                <ul s>
+                    <li>You will need the question paper for AY20/21 Sem 2 (can ask from friends also).</li>
+                    <li>You need to have obtained A/A+ for that module.</li>
+                    <li>Please contact the email below if you are interested :).</li>
+                </ul>
+            </div>
             <div>
-                <p><em>EEE Club</em> now has an agreement to digitalise PYP solutions, courtesy of <em>Campus Supplies Pte. Ltd.</em><br>Since Campus Supplies provides the compensation to the writers, they have a right of 3 years to sell the PYP solutions.<br>Please <em>support them</em> by purchasing the most recent years of PYP solutions directly from them!</p>
+                <p><em>EEE Club</em> now has an agreement to digitalise PYP solutions, courtesy of <em>Campus Supplies Pte. Ltd.</em><br>Since Campus Supplies provides the writers' compensation, they have a right of 3 years to sell the PYP solutions.<br>Please <em>support them</em> by purchasing the <span style="text-decoration: underline">most recent years of PYP solutions directly from them!</span></p>
                 <p>We understand that there are missing solutions in our OneDrive and are doing our best to source for the missing papers. You may help to provide old papers if you have them using <a href="">this form</a>.</p>
-                <a href="https://entuedu-my.sharepoint.com/:f:/g/personal/eeeclub-sdd_e_ntu_edu_sg/ElRhTpRLNd1HmEYVWMScIgMBGxn1W8ZQnWuRj82cikSfHg?e=3eOfvM" target="_blank"><button class="learn-more">Open OneDrive</button></a>
-                <p>The spreadsheet below shows the availability of our current papers.</p>
+                <a href="https://entuedu-my.sharepoint.com/:f:/g/personal/eeeclub-sdd_e_ntu_edu_sg/ElRhTpRLNd1HmEYVWMScIgMBGxn1W8ZQnWuRj82cikSfHg?e=3eOfvM" target="_blank"><button class="learn-more">Open OneDrive Folder</button></a>
+                <p>The spreadsheet below shows the availability of our current papers.<br>If you find any mistakes with the solution, please report them here using <a href="">this form</a>.</p>
             </div>
         </div>
-        <iframe width="805" height="545" frameborder="0" scrolling="no" src="https://entuedu-my.sharepoint.com/personal/eeeclub-sdd_e_ntu_edu_sg/_layouts/15/Doc.aspx?sourcedoc={0fbc0aa9-735d-4c40-90cc-e5a0599c5a3a}&action=embedview&wdAllowInteractivity=False&Item='PYP%20Solutions'!A1%3AV26&wdInConfigurator=True"></iframe>
-        <br>
+        <iframe class="sheet" scrolling="no" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSR4YIPsXqYQzqdiMB2JiYinZEemuIKa03VrEw0G0uZlUmwBObqUlgVFDmqNcr7Xg/pubhtml?gid=471229936&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        <div class="main">
+            <p>For any enquiries, you may email us at <a href="mailto:EEEClub-SDD@e.ntu.edu.sg">EEEClub-SDD@e.ntu.edu.sg</a>.</p>
+        </div>
     </body>
 </html>
