@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+iframe.sheet {
+    width: 806px;
+    height: 576px;
+}
+
+div.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 25px;
+    width: 806px;
+}
+div.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+/* toggle display when needed */
+div.boxed {
+    display: block;
+    border: 1px dashed black;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    width: 766px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 90%;
+    background-color: #d6f9fa;
+    margin: 15px 0px;
+}
+button:hover {
+    background-color: #b5f4f7;
+}
+li {
+    margin-left: -20px;
+}
+span#mods {
+    font-size: 80%;
+    font-style: italic;
+}
