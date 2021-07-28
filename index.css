@@ -1,12 +1,10 @@
-@import url(//db.onlinewebfonts.com/c/5076583fa2a14cd2cf3634ff59a1138b?family=Segoe+UI+Light);
-
 body {
     background-color: #f8f8ff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: "Segoe UI Light", "Segoe UI", "Tahoma", "Verdana", "Arial", "sans-serif";
+    font-family: "Segoe UI Light", "Calibri Light", "Segoe UI", "Tahoma", "Verdana", "Arial", "sans-serif";
 }
 
 iframe.sheet {
