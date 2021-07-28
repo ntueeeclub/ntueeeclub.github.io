@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: "Segoe UI Light", "Calibri Light", "Segoe UI", "Tahoma", "Verdana", "Arial", "sans-serif";
+    font-family: "Segoe UI Light", "Calibri Light", "Arial", "sans-serif";
 }
 
 iframe.sheet {
