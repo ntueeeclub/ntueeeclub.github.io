@@ -63,6 +63,14 @@ footer.footer-main {
     display: flex;
     justify-content: flex-end;
 }
+/* span.emphasis {
+    background-color: #b66c6c;
+    color: #eee;
+    border-radius: 4px;
+    padding: 2px 5px;
+    margin: 10px 0px;
+    font-size: 80%;
+} */
 
 
 /* From w3.css - https://www.w3schools.com/w3css/default.asp */
