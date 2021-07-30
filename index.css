@@ -26,6 +26,13 @@ div.logos {
     align-items: center;
     width: 400px;
 }
+div.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 806px;
+}
 /* toggle display when needed */
 div.boxed {
     display: block;
