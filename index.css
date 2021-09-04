@@ -33,6 +33,7 @@ div.counter {
     align-items: center;
     width: 100%;
 }
+
 /* toggle display when needed */
 div.boxed {
     display: block;
@@ -41,22 +42,13 @@ div.boxed {
     margin: 20px 0px;
     width: 766px;
 }
+
 div.pop-bg {
     background-color: #f8f8ff;
 }
 h1 {
     width: 100%;
 }
-/* button {
-    border-radius: 10px;
-    padding: 5px 10px;
-    font-size: 90%;
-    background-color: #d6f9fa;
-    margin: 15px 0px;
-}
-button:hover {
-    background-color: #b5f4f7;
-} */
 li {
     margin-left: -20px;
 }
@@ -76,15 +68,6 @@ footer.footer-main {
     display: flex;
     justify-content: flex-end;
 }
-/* span.emphasis {
-    background-color: #b66c6c;
-    color: #eee;
-    border-radius: 4px;
-    padding: 2px 5px;
-    margin: 10px 0px;
-    font-size: 80%;
-} */
-
 
 /* From w3.css - https://www.w3schools.com/w3css/default.asp */
 .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
