@@ -12,6 +12,19 @@ iframe.sheet {
     height: 676px;
 }
 
+iframe.sheet_new {
+    width: 910px;
+    height: 836px;
+}
+div.main_new {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px;
+    width: 910px;
+}
+
 div.main {
     display: flex;
     flex-direction: column;
