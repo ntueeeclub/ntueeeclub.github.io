@@ -49,11 +49,11 @@ div.counter {
 
 /* toggle display when needed */
 div.boxed {
-    display: none;
+    display: block;
     border: 1px dashed black;
     padding: 10px 20px;
     margin: 20px 0px;
-    width: 766px;
+    width: 870px;
 }
 
 div.pop-bg {
