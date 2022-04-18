@@ -48,8 +48,17 @@ div.counter {
 }
 
 /* toggle display when needed */
-div.boxed {
+div.boxed_msg {
     display: block;
+    border: 1px dashed black;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    width: 870px;
+}
+
+/* toggle display when needed */
+div.boxed_pyp {
+    display: none;
     border: 1px dashed black;
     padding: 10px 20px;
     margin: 20px 0px;
